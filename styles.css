@@ -22,8 +22,8 @@ body {
 
 .display {
     grid-column: span 4;
-    background-color: #FFA500;
-    color: ##EE82EE;
+    background-color: #333;
+    color: #fff;
     padding: 10px;
     text-align: right;
     font-size: 1.5em;
@@ -40,19 +40,19 @@ body {
 button {
     padding: 15px;
     font-size: 1.2em;
-    background-color: #FFFFFF;
-    color: #0000F;
+    background-color: #666;
+    color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #EE82EE;
+    background-color: #555;
 }
 
 .operator {
-    background-color: #EE82EE; 
+    background-color: #ff9500; /* orange */
 }
 
 .reset-btn {
