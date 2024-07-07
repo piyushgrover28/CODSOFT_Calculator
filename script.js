@@ -1,16 +1,16 @@
 let displayValue = '';
 
-function addToDisplay(value) {
+function aD(value) {
     displayValue += value;
     document.getElementById('display').value = displayValue;
 }
 
-function clearDisplay() {
+function cD() {
     displayValue = '';
     document.getElementById('display').value = displayValue;
 }
 
-function calculateResult() {
+function cR() {
     try {
         let result = eval(displayValue);
         document.getElementById('display').value = result;
@@ -21,7 +21,7 @@ function calculateResult() {
     }
 }
 
-function resetCalculator() {
+function rC() {
     displayValue = '';
     document.getElementById('display').value = displayValue;
 }
